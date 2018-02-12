@@ -1,0 +1,27 @@
+{
+    "name": "simacms/ckeditor",
+    "description": "SimaCms ckeditor",
+    "keywords": ["simacms", "ckeditor"],
+    "type": "yii2-extension",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Abolfazl Sharifi",
+            "email": "abolfazl.dev@gmail.com"
+        }
+    ],
+    "config": {
+        "secure-http": false
+    },
+    "autoload": {
+        "psr-4": {
+            "simacms\\ckeditor\\": ""
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
